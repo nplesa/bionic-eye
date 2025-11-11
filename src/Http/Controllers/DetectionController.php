@@ -1,9 +1,9 @@
 <?php
-namespace Nplesa\BionicEye\Http\Controllers;
+namespace nplesa\BionicEye\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Nplesa\BionicEye\Models\Detection;
+use nplesa\BionicEye\Models\Detection;
 
 class DetectionController extends Controller
 {
