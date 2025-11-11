@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Nplesa\\BionicEye\\": "src/"
+            "nplesa\\BionicEye\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Nplesa\\BionicEye\\BionicEyeServiceProvider"
+                "nplesa\\BionicEye\\BionicEyeServiceProvider"
             ]
         }
     }
