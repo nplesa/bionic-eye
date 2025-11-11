@@ -1,5 +1,5 @@
 <?php
-namespace Nplesa\BionicEye;
+namespace nplesa\BionicEye;
 
 use Illuminate\Support\ServiceProvider;
 
