@@ -1,8 +1,8 @@
 <?php
-namespace Nplesa\BionicEye\Http\Livewire;
+namespace nplesa\BionicEye\Http\Livewire;
 
 use Livewire\Component;
-use Nplesa\BionicEye\Models\DashboardInstance;
+use nplesa\BionicEye\Models\DashboardInstance;
 
 class CameraDashboard extends Component
 {
