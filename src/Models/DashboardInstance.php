@@ -1,5 +1,5 @@
 <?php
-namespace Nplesa\BionicEye\Models;
+namespace nplesa\BionicEye\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
