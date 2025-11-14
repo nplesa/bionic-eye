@@ -1,23 +1,24 @@
 # nplesa/bionic-eye
 
-Multi-camera AI detection and HLS streaming package pentru Laravel 12.
+Multi-camera AI Laravel 12 package.
 
-## Instalare
+## Instalation
 ```
 composer require nplesa/bionic-eye
 php artisan migrate
 ```
-## Configurare
+## Configuration
 ```
-1. Creează instanțe dashboard și camere în tabelele dashboard_instances și cameras.
-2. Asigură-te că scriptul Python are sursele corecte (RTSP sau fișiere video).
+1. Create bionic-eye instances on dashboard that tracking and try to identify objects.
+2. Please ensure that Python sources are last version. (RTSP or video sources).
+3. All records can be stored.
 ```
-## Rulare
+## Running
 ```
 php artisan serve
 python3 vendor/nplesa/bionic-eye/python/bionic_eye_hls.py
 ```
-## Dashboard Livewire
+## Sample of Livewire instance on dashboard
 ```
 <livewire:camera-dashboard :instance_id="$instance->id" />
 ```
