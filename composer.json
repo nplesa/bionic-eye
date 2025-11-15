@@ -2,6 +2,11 @@
     "name": "nplesa/bionic-eye",
     "description": "Multi-camera AI detection and HLS streaming package for Laravel 12",
     "type": "library",
+    "author" : {
+        "name" : "Nicolae Plesa",
+        "email" : "nicu.plesa@gmail.com"
+    },
+    "license": "MIT",
     "require": {
         "php": "^8.1",
         "illuminate/support": "^12.0",
